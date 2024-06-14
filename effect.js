@@ -220,7 +220,7 @@ $('document').ready(function(){
 
 	$('#cake_cut').click(function(){
 		$('.fuego').fadeOut('fast');
-		$(this).fadeOut('slow').promise().done(function(){
+		$(this).fadeOut('slow').delay(2000).promise().done(function(){
 			$('#story').fadeIn('fast');
 			
 			
