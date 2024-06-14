@@ -65,40 +65,40 @@ $('document').ready(function(){
 	});
 
 	function loopOne() {
-		vw = $(window).width()/2;
-		var randleft = vw*Math.random();
+		vw = $(window).width();
+		var randleft = (vw)*Math.random();
 		var randtop = 500*Math.random();
 		$('#b1').animate({left:randleft,bottom:randtop},10000,function(){
 			loopOne();
 		});
 	}
 	function loopTwo() {
-		vw = $(window).width()/2;
-		var randleft = vw*Math.random();
+		vw = $(window).width();
+		var randleft = (vw)*Math.random();
 		var randtop = 500*Math.random();
 		$('#b2').animate({left:randleft,bottom:randtop},10000,function(){
 			loopTwo();
 		});
 	}
 	function loopThree() {
-		vw = $(window).width()/2;
-		var randleft = vw*Math.random();
+		vw = $(window).width();
+		var randleft = (vw)*Math.random();
 		var randtop = 500*Math.random();
 		$('#b3').animate({left:randleft,bottom:randtop},10000,function(){
 			loopThree();
 		});
 	}
 	function loopFour() {
-		vw = $(window).width()/2;
-		var randleft = vw*Math.random();
+		vw = $(window).width();
+		var randleft = (vw)*Math.random();
 		var randtop = 500*Math.random();
 		$('#b4').animate({left:randleft,bottom:randtop},10000,function(){
 			loopFour();
 		});
 	}
 	function loopFive() {
-		vw = $(window).width()/2;
-		var randleft = vw*Math.random();
+		vw = $(window).width();
+		var randleft = (vw)*Math.random();
 		var randtop = 500*Math.random();
 		$('#b5').animate({left:randleft,bottom:randtop},10000,function(){
 			loopFive();
@@ -106,16 +106,16 @@ $('document').ready(function(){
 	}
 
 	function loopSix() {
-		vw = $(window).width()/2;
-		var randleft = vw*Math.random();
+		vw = $(window).width();
+		var randleft = (vw)*Math.random();
 		var randtop = 500*Math.random();
 		$('#b6').animate({left:randleft,bottom:randtop},10000,function(){
 			loopSix();
 		});
 	}
 	function loopSeven() {
-		vw = $(window).width()/2;
-		var randleft = vw*Math.random();
+		vw = $(window).width();
+		var randleft = (vw)*Math.random();
 		var randtop = 500*Math.random();
 		$('#b7').animate({left:randleft,bottom:randtop},10000,function(){
 			loopSeven();
