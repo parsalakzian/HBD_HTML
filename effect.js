@@ -23,7 +23,7 @@ $('document').ready(function(){
 		// $('#bulb_green').addClass('bulb-glow-green');
 		// $('#bulb_pink').addClass('bulb-glow-pink');
 		// $('#bulb_orange').addClass('bulb-glow-orange');
-		$('body').addClass('peach');
+		document.body.style.backgroundColor = "#FFDAB9";
 		// $(this).fadeOut('slow').delay(5000).promise().done(function(){
 		// 	$('#play').fadeIn('slow');
 		// });
@@ -134,8 +134,6 @@ $('document').ready(function(){
 		
 		$('.bannar').addClass('bannar-come');
 		
-		$('body').css('backgroud-color','#FFF');
-		$('body').addClass('peach-after');
 		loopOne();
 		loopTwo();
 		loopThree();
@@ -201,9 +199,10 @@ $('document').ready(function(){
 			$("p:nth-child("+i+")").fadeOut('slow').delay(1000).promise().done(function(){
 			i=i+1;
 			$("p:nth-child("+i+")").fadeIn('slow').delay(2000);
-			if(i==42){
+			if(i==45){
 				$("p:nth-child(41)").fadeOut('slow').promise().done(function () {
 					$('.cake').fadeIn('fast');
+					$('#cake_cut').fadeIn('slow');
 				});
 				
 			}
@@ -218,6 +217,19 @@ $('document').ready(function(){
 		msgLoop(0);
 		
 	});
+
+	$('#cake_cut').click(function(){
+		$('.fuego').fadeOut('fast');
+		$(this).fadeOut('slow').promise().done(function(){
+			$('#story').fadeIn('fast');
+			
+			
+			document.body.style.backgroundColor = "#000";
+			
+			$('section').fadeOut('fast');
+		});
+	});
+
 });
 
 
