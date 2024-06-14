@@ -65,35 +65,40 @@ $('document').ready(function(){
 	});
 
 	function loopOne() {
-		var randleft = 200*Math.random();
+		vw = $(window).width()/2;
+		var randleft = vw*Math.random();
 		var randtop = 500*Math.random();
 		$('#b1').animate({left:randleft,bottom:randtop},10000,function(){
 			loopOne();
 		});
 	}
 	function loopTwo() {
-		var randleft = 230*Math.random();
+		vw = $(window).width()/2;
+		var randleft = vw*Math.random();
 		var randtop = 500*Math.random();
 		$('#b2').animate({left:randleft,bottom:randtop},10000,function(){
 			loopTwo();
 		});
 	}
 	function loopThree() {
-		var randleft = 250*Math.random();
+		vw = $(window).width()/2;
+		var randleft = vw*Math.random();
 		var randtop = 500*Math.random();
 		$('#b3').animate({left:randleft,bottom:randtop},10000,function(){
 			loopThree();
 		});
 	}
 	function loopFour() {
-		var randleft = 270*Math.random();
+		vw = $(window).width()/2;
+		var randleft = vw*Math.random();
 		var randtop = 500*Math.random();
 		$('#b4').animate({left:randleft,bottom:randtop},10000,function(){
 			loopFour();
 		});
 	}
 	function loopFive() {
-		var randleft = 300*Math.random();
+		vw = $(window).width()/2;
+		var randleft = vw*Math.random();
 		var randtop = 500*Math.random();
 		$('#b5').animate({left:randleft,bottom:randtop},10000,function(){
 			loopFive();
@@ -101,14 +106,16 @@ $('document').ready(function(){
 	}
 
 	function loopSix() {
-		var randleft = 320*Math.random();
+		vw = $(window).width()/2;
+		var randleft = vw*Math.random();
 		var randtop = 500*Math.random();
 		$('#b6').animate({left:randleft,bottom:randtop},10000,function(){
 			loopSix();
 		});
 	}
 	function loopSeven() {
-		var randleft = 350*Math.random();
+		vw = $(window).width()/2;
+		var randleft = vw*Math.random();
 		var randtop = 500*Math.random();
 		$('#b7').animate({left:randleft,bottom:randtop},10000,function(){
 			loopSeven();
